@@ -1,0 +1,23 @@
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+.row.articles {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: .5em;
+ -webkit-column-gap: .5em;
+  
+}
+
+.item {
+ display: inline-block;
+ margin:  .5em;
+ padding:  0; 
+ width:98%;
+}

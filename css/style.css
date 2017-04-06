@@ -1,0 +1,47 @@
+.heart {
+	color: red;
+}
+
+.fb {
+	color: #3b5998
+}
+
+.tw {
+	color: #55acee
+}
+
+#content {
+	margin-top: 30px;
+}
+
+.thumbnail-overlay {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail-overlay-secondary {
+	right: 25px;
+}
+.sticky {
+	color: red;
+}
+
+.featured {
+	color: yellow;
+}
+
+.title {
+	padding: 0 3px;
+}
+.title:hover a {
+	text-decoration: none;
+}
+
+.btn-group-full {
+	width: 100%;
+}
