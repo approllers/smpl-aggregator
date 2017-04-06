@@ -8,9 +8,9 @@ error_reporting(E_ALL);
 date_default_timezone_set('America/New_York');
 
 // MySQL Database Credentials
-$db_user = 'approl5_smpl_agg';
-$db_pass = 'approl5_smpl_agg';
-$db_name = 'approl5_smpl_aggregator';
+$db_user = '';
+$db_pass = '';
+$db_name = '';
 $db_host = 'localhost';
 
 // MySQL Connect
@@ -26,28 +26,28 @@ if (!$conn->query('SET time_zone = "-02:00"')) {
 }
 
 // Public File Path from Root
-$publicfp = '/home/approl5/public_html/aggregator/';
+$publicfp = '';
 
 // Admin File Path from Root
 $adminfp = $publicfp .'admin/';
 
 // Public URL
-$publicurl = 'http://approllers.com/aggregator/';
+$publicurl = '';
 
 // Admin URL
 $adminurl = $publicurl .'admin/';
 
 // Cron Jobs File Path
-$cronfp = '/home/approl5/linkgoat-cronjobs/';
+$cronfp = '';
 
 // Backup Directory File Path
-$backupfp = '/home/approl5/backups/';
+$backupfp = '';
 
 // CloudFlare Credentials
-$cf_key = 'f8736a6e00e1e7bd14a9ad5f08375f7428cbe';
-$cf_email = 'cloudflare@linkgoat.com';
-$purge_urls = array('http://linkgoat.com/index.html');
-$cf_domain = 'linkgoat.com';
+$cf_key = '';
+$cf_email = '';
+$purge_urls = array('');
+$cf_domain = '';
 
 // Current URL Request
 //$request = 'http://'. $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
